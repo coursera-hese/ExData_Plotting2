@@ -7,11 +7,15 @@ unzip("NEI_data.zip")
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
 
-# Prepare Data
+##
+## Prepare Data
+##
 #library(dplyr)
 
 
-# Plotting
+##
+## Plotting
+##
 #library(ggplot2)
 png(filename = "plot6.png")
 
